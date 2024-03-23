@@ -4,12 +4,12 @@
     row-gap: 10vh;
 }
 .rectangle{
-    background: rgb(0, 0, 0);
-    height: 50px;
-    width: 50px;
+    background: rgb(246, 243, 243);
+    width: 5px;
 }
 
 #sectionTitles {
+    display: flex;
     background: blue;
     padding-left: 4vw;
 }
