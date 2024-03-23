@@ -1,20 +1,33 @@
-.wrapper {
+.containerLandingpage {
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
     row-gap: 10vh;
 }
+.rectangle{
+    background: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+}
+
+#sectionTitles {
+    background: blue;
+    padding-left: 4vw;
+}
 
 #projectslandingpage { 
     color: rgb(9, 255, 0);
+    background: red;
     padding-left: 35vw;
 }
 
 #cvlandingpage { 
     color: rgb(9, 255, 0);
+    background: red;
     padding-left: 45vw;
 }
 
 #lawrenceNowaklandingpage {
     color: rgb(0, 213, 255);
+    background: red;
     padding-left: 55vw;
 }
