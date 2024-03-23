@@ -1,1 +1,20 @@
-h1{ color:green };
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    row-gap: 10vh;
+}
+
+#projectslandingpage { 
+    color: rgb(9, 255, 0);
+    padding-left: 35vw;
+}
+
+#cvlandingpage { 
+    color: rgb(9, 255, 0);
+    padding-left: 45vw;
+}
+
+#lawrenceNowaklandingpage {
+    color: rgb(0, 213, 255);
+    padding-left: 55vw;
+}
