@@ -1,19 +1,33 @@
-.containerLandingpage{
+.landingpageContainer{
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
     row-gap: 10vh;
 }
 
-.projectsPage{
+.projectsPageContainer{
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
     justify-content:center;
 }
 
-.cvPage{
+.cvPageContainer{
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    justify-content:center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#headerCv{
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+#cvAusbildung{
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#cvBerufserfahrung{
+    grid-area: 2 / 3 / 3 / 4;
 }
 
 .rectangle{
