@@ -1,10 +1,23 @@
-.containerLandingpage {
+.containerLandingpage{
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
     row-gap: 10vh;
 }
+
+.projectsPage{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    justify-content:center;
+}
+
+.cvPage{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    justify-content:center;
+}
+
 .rectangle{
-    background: rgb(246, 243, 243);
+    background: rgb(188, 129, 129);
     width: 5px;
 }
 
@@ -14,19 +27,19 @@
     padding-left: 4vw;
 }
 
-#projectslandingpage { 
+#projectsLandingpage { 
     color: rgb(9, 255, 0);
     background: red;
     padding-left: 35vw;
 }
 
-#cvlandingpage { 
+#cvLandingpage { 
     color: rgb(9, 255, 0);
     background: red;
     padding-left: 45vw;
 }
 
-#lawrenceNowaklandingpage {
+#lawrenceNowakLandingpage {
     color: rgb(0, 213, 255);
     background: red;
     padding-left: 55vw;
