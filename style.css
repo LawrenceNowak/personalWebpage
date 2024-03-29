@@ -9,11 +9,10 @@ h2{
     grid-template-columns: 1fr, 1fr, 1fr;
     row-gap: 10vh;
 }
-
 .projectsPageContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -21,7 +20,7 @@ h2{
 .cvPageContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -29,11 +28,14 @@ h2{
 .aboutMeContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 #headerProjects{
+    display: flex;
+    justify-content: center;
+    text-align:center;
     grid-area: 1 / 2 / 2 / 3;
 }
 
@@ -46,6 +48,9 @@ h2{
 }
 
 #headerCv{
+    display: flex;
+    justify-content: center;
+    text-align:center;
     grid-area: 1 / 2 / 2 / 3; 
 }
 
@@ -58,6 +63,9 @@ h2{
 }
 
 #headerAboutMe{
+    display: flex;
+    justify-content: center;
+    text-align:center;
     grid-area: 1 / 2 / 2 / 3; 
 }
 
