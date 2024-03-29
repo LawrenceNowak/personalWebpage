@@ -68,7 +68,7 @@
     width: 5px;
 }
 
-#sectionTitles {
+.expandingRectangle {
     display: flex;
     background: blue;
     padding-left: 4vw;
