@@ -1,3 +1,9 @@
+h1 {
+    color:white;
+}
+h2{
+    color:white;
+}
 .landingpageContainer{
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
@@ -64,14 +70,14 @@
 }
 
 .rectangle{
-    background: rgb(188, 129, 129);
-    width: 5px;
+    background: rgb(157, 203, 30);
+    width: 10px;
 }
 
 .expandingRectangle {
     display: flex;
     background: blue;
-    padding-left: 4vw;
+    
 }
 
 #projectsLandingpage { 
