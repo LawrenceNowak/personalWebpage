@@ -1,8 +1,9 @@
-h1 {
-    color:rgb(203, 40, 152);
-}
 h2{
     color: rgb(203, 40, 152);
+}
+
+#headerPages{
+    color: black;
 }
 .landingpageContainer{
     display: grid;
