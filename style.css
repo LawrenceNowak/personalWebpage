@@ -43,21 +43,20 @@ h2{
     width: 100vw;
 }
 
+#landingPage > div {
+    padding-top: 10vh;
+    background: blueviolet;
+}
+
 #projectsLandingpage { 
-    color: rgb(9, 255, 0);
-    background: red;
     padding-left: 35vw;
 }
 
 #cvLandingpage { 
-    color: rgb(9, 255, 0);
-    background: red;
     padding-left: 45vw;
 }
 
 #aboutMeLandingpage {
-    color: rgb(0, 213, 255);
-    background: red;
     padding-left: 55vw;
 }
 

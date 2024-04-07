@@ -9,217 +9,215 @@
   </head>
 
   <body>
-    <div id="websiteContainer">
-        <div id="landingPage">
-            <div id="projectsLandingpage">
-                <h1 class="expandingRectangle">
+    <div id="landingPage">
+        <div id="projectsLandingpage">
+            <h1 class="expandingRectangle">
+                <div class="rectangle"></div> 
+                Projects
+            </h1>
+        </div>
+        <div id="cvLandingpage">
+            <h1 class="expandingRectangle">
+                <div class="rectangle"></div> 
+                CV
+            </h1>
+        </div>                           
+        <div id="aboutMeLandingpage">
+            <h1 class="expandingRectangle">
+                <div class="rectangle"></div> 
+                About Me
+            </h1>
+        </div>
+    </div>
+
+    <div id="projectsPage">      
+        <div id="headerProjects">
+            <h1>
+                Projects
+            </h1>
+        </div>
+        <div id="projectOne">
+            <div id="headerDummyProjectOne">
+                <h2 class="expandingRectangle" onclick="DummyProjectOneExpandingContent()">
                     <div class="rectangle"></div> 
-                    Projects
-                </h1>
+                    Dummy Project One
+                </h2>
             </div>
-            <div id="cvLandingpage">
-                <h1 class="expandingRectangle">
+            <div id="DummyProjectOneContentNotExpanded">
+                <p> Dummy Text One</p>
+            </div>
+        </div>
+        
+        <div id="projectTwo"> 
+            <div id="headerDummyProjectTwo">
+                <h2 class="expandingRectangle" onclick="DummyProjectTwoExpandingContent()">
                     <div class="rectangle"></div> 
-                    CV
-                </h1>
-            </div>                           
-            <div id="aboutMeLandingpage">
-                <h1 class="expandingRectangle">
-                    <div class="rectangle"></div> 
-                    About Me
-                </h1>
+                    Dummy Project Two
+                </h2>
+            </div>
+            <div id="DummyProjectTwoContentNotExpanded">
+                <p> Dummy Text Two</p>
             </div>
         </div>
 
-        <div id="projectsPage">      
-            <div id="headerProjects">
-                <h1>
-                    Projects
-                </h1>
-            </div>
-            <div id="projectOne">
-                <div id="headerDummyProjectOne">
-                    <h2 class="expandingRectangle" onclick="DummyProjectOneExpandingContent()">
-                        <div class="rectangle"></div> 
-                        Dummy Project One
-                    </h2>
-                </div>
-                <div id="DummyProjectOneContentNotExpanded">
-                    <p> Dummy Text One</p>
-                </div>
-            </div>
-            
-            <div id="projectTwo"> 
-                <div id="headerDummyProjectTwo">
-                    <h2 class="expandingRectangle" onclick="DummyProjectTwoExpandingContent()">
-                        <div class="rectangle"></div> 
-                        Dummy Project Two
-                    </h2>
-                </div>
-                <div id="DummyProjectTwoContentNotExpanded">
-                    <p> Dummy Text Two</p>
-                </div>
-            </div>
+    </div>
 
+    <div id="cvPage">
+        <div id="headerCv">
+            <h1>
+                CV
+            </h1>
         </div>
 
-        <div id="cvPage">
-            <div id="headerCv">
-                <h1>
-                    CV
-                </h1>
+        <div id="cvAusbildung">
+            <div id="subHeaderAusbildung" class="expandingRectangle" onclick="AusbildungExpandingContent()">
+                <h2 class="expandingRectangle">
+                    <div class="rectangle"></div> 
+                    Ausbildung
+                </h2>
             </div>
 
-            <div id="cvAusbildung">
-                <div id="subHeaderAusbildung" class="expandingRectangle" onclick="AusbildungExpandingContent()">
-                    <h2 class="expandingRectangle">
-                        <div class="rectangle"></div> 
-                        Ausbildung
-                    </h2>
-                </div>
-
-                <div id="AusbildungContentNotExpanded">
-                    <p>
-                        1998 - 2002 Grundschule Hinter der Burg Springe
-                    </p>
-                    <p>
-                        2002 - 2004 Orientierungsstufe Süd Springe
-                    </p>
-                    <p>
-                        2004 - 2011 Otto Hahn Gymnasium Springe
-                    </p>
-                    <p>
-                        2011 - 2012 Freiwillig Wehrdienstleistender Lufttransportgeschwader 62 Wunstorf Instanstsetzungsstaffel
-                    </p>
-                    <p>
-                        2012 - 2014 Maschinenbaustudium Leibniz Universität Hannover
-                    </p>
-                    <p>
-                        2014 - 2014 Vorpraktikum bei Körber Feinmechanik GmbH in 30952 Ronnenberg
-                    </p>
-                    <p>
-                        2014 - 2017 Studium der Verfahrenstechnik Hochschule Hannover
-                    </p>
-                    <p>
-                        2017 - 2020 Studium Politkwissenschaften Leibniz Universität Hannover
-                    </p>
-                </div>
-            </div>
-
-            <div id="cvBerufserfahrung">
-                <div id="subHeaderBerufserfahrung" class="expandingRectangle" onclick="BerufserfahrungExpandingContent()">
-                    <h2 class="expandingRectangle">
-                        <div class="rectangle"></div>
-                        Berufserfahrung
-                    </h2>
-                </div>
-
-                <div id="BerufserfahrungContentNotExpanded">
-                    <p>
-                        2016 - 2016                 Niedersächsische Wach- und Schliessgesellschaft in 30165 Hannover
-                                                    Nachtwache Hannover Messe 2016
-                    </p> 
-                    <p>
-                        2016 - heute                Primetec GmbH in 30179 Hannover
-                                                    Minijob Ordner Stadion 
-                    </p>
-                    <p>
-                        Juli 2019 - August 2019     Kählig Antriebstechnik GmbH in 30179 Hannover 
-                                                    Produktionsmmitarbeiter in der Ankermontage  
-                    </p>
-                    <p>
-                        März 2017 - Februar 2020    Niedersächsische Wach- und Schliessgesellschaft in 30165 Hannover
-                                                    Halleninspektor auf verschiedensten Messen
-                    </p>
-                    <p>
-                        Juni 2020 - Januar 2021     Kählig Antriebstechnik GmbH in 30179 Hannover 
-                                                    Produktionsmmitarbeiter in der Ankermontage  
-                    </p>
-                    <p>
-                        Februar 2021 - Oktober 2021 Niedersächsische Wach- und Schliessgesellschaft in 30165 Hannover
-                                                    Halleninspektor im Impzentrum Hannover
-                    </p>
-                    <p>
-                        März 2022 - Heute           Majorel GmbH in 31832 Springe   
-                                                    Content Moderator
-                    </p>
-                </div>
+            <div id="AusbildungContentNotExpanded">
+                <p>
+                    1998 - 2002 Grundschule Hinter der Burg Springe
+                </p>
+                <p>
+                    2002 - 2004 Orientierungsstufe Süd Springe
+                </p>
+                <p>
+                    2004 - 2011 Otto Hahn Gymnasium Springe
+                </p>
+                <p>
+                    2011 - 2012 Freiwillig Wehrdienstleistender Lufttransportgeschwader 62 Wunstorf Instanstsetzungsstaffel
+                </p>
+                <p>
+                    2012 - 2014 Maschinenbaustudium Leibniz Universität Hannover
+                </p>
+                <p>
+                    2014 - 2014 Vorpraktikum bei Körber Feinmechanik GmbH in 30952 Ronnenberg
+                </p>
+                <p>
+                    2014 - 2017 Studium der Verfahrenstechnik Hochschule Hannover
+                </p>
+                <p>
+                    2017 - 2020 Studium Politkwissenschaften Leibniz Universität Hannover
+                </p>
             </div>
         </div>
 
-        <div id="aboutMePage">
-            <div id="headerAboutMe">
-                <h1>
-                    About Me
-                </h1>
+        <div id="cvBerufserfahrung">
+            <div id="subHeaderBerufserfahrung" class="expandingRectangle" onclick="BerufserfahrungExpandingContent()">
+                <h2 class="expandingRectangle">
+                    <div class="rectangle"></div>
+                    Berufserfahrung
+                </h2>
             </div>
 
-            <div id="skillsAboutMe">
-                <div id="subHeaderSkills" class="expandingRectangle" onclick="SkillsExpandingContent()">
-                    <h2 class="expandingRectangle">
-                        <div class="rectangle"></div>
-                        Skills
-                    </h2>
-                </div>
+            <div id="BerufserfahrungContentNotExpanded">
+                <p>
+                    2016 - 2016                 Niedersächsische Wach- und Schliessgesellschaft in 30165 Hannover
+                                                Nachtwache Hannover Messe 2016
+                </p> 
+                <p>
+                    2016 - heute                Primetec GmbH in 30179 Hannover
+                                                Minijob Ordner Stadion 
+                </p>
+                <p>
+                    Juli 2019 - August 2019     Kählig Antriebstechnik GmbH in 30179 Hannover 
+                                                Produktionsmmitarbeiter in der Ankermontage  
+                </p>
+                <p>
+                    März 2017 - Februar 2020    Niedersächsische Wach- und Schliessgesellschaft in 30165 Hannover
+                                                Halleninspektor auf verschiedensten Messen
+                </p>
+                <p>
+                    Juni 2020 - Januar 2021     Kählig Antriebstechnik GmbH in 30179 Hannover 
+                                                Produktionsmmitarbeiter in der Ankermontage  
+                </p>
+                <p>
+                    Februar 2021 - Oktober 2021 Niedersächsische Wach- und Schliessgesellschaft in 30165 Hannover
+                                                Halleninspektor im Impzentrum Hannover
+                </p>
+                <p>
+                    März 2022 - Heute           Majorel GmbH in 31832 Springe   
+                                                Content Moderator
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutMePage">
+        <div id="headerAboutMe">
+            <h1>
+                About Me
+            </h1>
+        </div>
+
+        <div id="skillsAboutMe">
+            <div id="subHeaderSkills" class="expandingRectangle" onclick="SkillsExpandingContent()">
+                <h2 class="expandingRectangle">
+                    <div class="rectangle"></div>
+                    Skills
+                </h2>
+            </div>
+        </div>
+
+        <div id="SkillsContentNotExpanded">
+            <div id="sprachenAboutMe">
+                <h3>
+                    Sprachen
+                </h3>
+                    <p>
+                        Deutsch - Muttersprache
+                        Englisch - Sehr Gut
+                    </p>
+            </div>
+            <div id="progammierenAboutMe">
+                <h3>
+                    Programmiersprachen/Auszeichnungssprachen/Stylesheet-Sprachen/Versionsverwaltungen
+                </h3>
+                    <p>
+                        HTML        - Rudimentär
+                        CSS         - Rudimentär
+                        GIT         - Rudimentär
+                        Javascript  - Rudimentär
+                        C#          - Rudimentär
+                    </p>
+            </div>
+            <div id="kurseAboutMe">
+                <h3>
+                    Kurse
+                </h3>
+                    <p>
+                        Udemy - The Web Developer Bootcamp 2018 by Colt Steele
+                    </p>
+            </div>
+        </div>
+
+        <div id="hobbiesAboutMe">
+            <div id="subHeaderHobbies" class="expandingRectangle" onclick="HobbiesExpandingContent()">
+                <h2 class="expandingRectangle">
+                    <div class="rectangle"></div> 
+                    Hobbies
+                </h2>
             </div>
 
-            <div id="SkillsContentNotExpanded">
-                <div id="sprachenAboutMe">
-                    <h3>
-                        Sprachen
-                    </h3>
-                        <p>
-                            Deutsch - Muttersprache
-                            Englisch - Sehr Gut
-                        </p>
-                </div>
-                <div id="progammierenAboutMe">
-                    <h3>
-                        Programmiersprachen/Auszeichnungssprachen/Stylesheet-Sprachen/Versionsverwaltungen
-                    </h3>
-                        <p>
-                            HTML        - Rudimentär
-                            CSS         - Rudimentär
-                            GIT         - Rudimentär
-                            Javascript  - Rudimentär
-                            C#          - Rudimentär
-                        </p>
-                </div>
-                <div id="kurseAboutMe">
-                    <h3>
-                        Kurse
-                    </h3>
-                        <p>
-                            Udemy - The Web Developer Bootcamp 2018 by Colt Steele
-                        </p>
-                </div>
-            </div>
-
-            <div id="hobbiesAboutMe">
-                <div id="subHeaderHobbies" class="expandingRectangle" onclick="HobbiesExpandingContent()">
-                    <h2 class="expandingRectangle">
-                        <div class="rectangle"></div> 
-                        Hobbies
-                    </h2>
-                </div>
-
-                <div id="HobbiesContentNotExpanded">
-                    <p>
-                        Gaming
-                    </p>
-                    <p>
-                        Gamedevelopment
-                    </p>
-                    <p>
-                        Gym
-                    </p>
-                    <p>
-                        Filme
-                    </p>
-                    <p>
-                        Kochen
-                    </p>
-                </div>
+            <div id="HobbiesContentNotExpanded">
+                <p>
+                    Gaming
+                </p>
+                <p>
+                    Gamedevelopment
+                </p>
+                <p>
+                    Gym
+                </p>
+                <p>
+                    Filme
+                </p>
+                <p>
+                    Kochen
+                </p>
             </div>
         </div>
     </div>
