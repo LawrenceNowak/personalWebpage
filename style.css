@@ -79,46 +79,12 @@ body {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-#projectOne{
-    display: flex;
-    justify-content: right;
-    text-align:center;
-    grid-area: 2 / 1 / 3 / 2;
-    margin-top: 35vh;
-}
-
-#projectTwo{
-    display: flex;
-    justify-content: left;
-    text-align:center;
-    grid-area: 2 / 3 / 3 / 4;
-    margin-top: 35vh;
-}
-
 #headerCv{
     display: flex;
     justify-content: center;
     text-align:center;
     grid-area: 1 / 2 / 2 / 3; 
-}
-
-#cvAusbildung{
-    grid-area: 2 / 1 / 3 / 2;
-    margin-top: 35vh;
-}
-
-#subHeaderAusbildung{
-    justify-content: right;
-    text-align:right;
-}
-
-#subHeaderBerufserfahrung{
-    justify-content: left;
-    text-align:left;
-}
-#cvBerufserfahrung{
-    grid-area: 2 / 3 / 3 / 4;
-    margin-top: 35vh;
+    
 }
 
 #headerAboutMe{
@@ -128,24 +94,45 @@ body {
     grid-area: 1 / 2 / 2 / 3; 
 }
 
-#subHeaderSkills{
+.contentContainerLeft{
+    display: flex;
     justify-content: right;
-    text-align:right;
-}
-
-#subHeaderHobbies{
-    justify-content: left;
-    text-align:left;
-}
-#skillsAboutMe{
+    text-align:center;
     grid-area: 2 / 1 / 3 / 2;
     margin-top: 35vh;
+    position: relative;
 }
 
-#hobbiesAboutMe{
+.contentHeaderLeft{
+    position: absolute;
+}
+
+.contentTextLeft{
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.contentContainerRight{
+    display: flex;
+    justify-content: left;
+    text-align:center;
     grid-area: 2 / 3 / 3 / 4;
     margin-top: 35vh;
 }
+
+.contentHeaderRight{
+    position: absolute;
+}
+
+.contentTextRight{
+    position: absolute;
+    margin-top: 10vh;
+}
+
+
+
+
+
 
 
 
