@@ -5,6 +5,24 @@ h2{
     color: rgb(203, 40, 152);
 }
 
+#projectsLandingpage { 
+    color: rgb(9, 255, 0);
+    background: red;
+    padding-left: 35vw;
+}
+
+#cvLandingpage { 
+    color: rgb(9, 255, 0);
+    background: red;
+    padding-left: 45vw;
+}
+
+#aboutMeLandingpage {
+    color: rgb(0, 213, 255);
+    background: red;
+    padding-left: 55vw;
+}
+
 #DummyProjectOneContentNotExpanded{
     display:none;
 }
@@ -59,12 +77,15 @@ h2{
     display:flex;
 }
 
-.landingpageContainer{
+#landingPage{
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    row-gap: 10vh;
+    grid-template-columns: auto, auto, auto;
+    row-gap: 1vh;
+    height: 100vh;
+    width: 100vw;
 }
-.projectsPageContainer{
+
+#projectsPage{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
@@ -72,7 +93,7 @@ h2{
     grid-row-gap: 0px;
 }
 
-.cvPageContainer{
+#cvPage{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
@@ -80,7 +101,7 @@ h2{
     grid-row-gap: 0px;
 }
 
-.aboutMeContainer{
+#aboutMePage{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
@@ -167,20 +188,3 @@ h2{
     
 }
 
-#projectsLandingpage { 
-    color: rgb(9, 255, 0);
-    background: red;
-    padding-left: 35vw;
-}
-
-#cvLandingpage { 
-    color: rgb(9, 255, 0);
-    background: red;
-    padding-left: 45vw;
-}
-
-#aboutMeLandingpage {
-    color: rgb(0, 213, 255);
-    background: red;
-    padding-left: 55vw;
-}
