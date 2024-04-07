@@ -5,6 +5,44 @@ h2{
     color: rgb(203, 40, 152);
 }
 
+#landingPage{
+    display: grid;
+    grid-template-columns: auto, auto, auto;
+    row-gap: 1vh;
+    height: 100vh;
+    width: 100vw;
+}
+
+#projectsPage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#cvPage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#aboutMePage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
 #projectsLandingpage { 
     color: rgb(9, 255, 0);
     background: red;
@@ -77,37 +115,6 @@ h2{
     display:flex;
 }
 
-#landingPage{
-    display: grid;
-    grid-template-columns: auto, auto, auto;
-    row-gap: 1vh;
-    height: 100vh;
-    width: 100vw;
-}
-
-#projectsPage{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-
-#cvPage{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-
-#aboutMePage{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
 #headerProjects{
     display: flex;
     justify-content: center;
@@ -187,4 +194,49 @@ h2{
     background: blue;
     
 }
+
+
+.holster {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  font-family: monospace;
+}
+.container {
+  display: flex;
+  margin: 1em auto;
+  outline: 1px dashed lightgray;
+  flex: none;
+  overflow: auto;
+}
+
+.container.y {
+  width: 256px;
+  height: 256px;
+  flex-flow: column nowrap;
+  overflow-x: hidden;
+}
+
+.y.mandatory-scroll-snapping {
+  scroll-snap-type: y mandatory;
+}
+
+.container > div {
+  text-align: center;
+  scroll-snap-align: center;
+  flex: none;
+}
+
+
+.y.container > div {
+  line-height: 256px;
+  font-size: 128px;
+  width: 256px;
+  height: 100%;
+}
+
+
+
+
 
