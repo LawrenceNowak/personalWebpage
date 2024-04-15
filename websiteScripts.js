@@ -1,4 +1,4 @@
 function myFunction() {
-    var number = document.getElementById("NumberZero").value 
+    var number = document.getElementById("number").value 
     console.log(parseFloat(number));
   }
