@@ -2,7 +2,7 @@ const arrayCharactersInputField =[];
 /* searching for all classes that have the class calulatorNumber */
 const characters = document.querySelectorAll(".calculatorCharacter");
 
-function inputChracters(objButton){
+function inputCharacters(objButton){
   const buttonValue = objButton.value;
   arrayCharactersInputField.push(buttonValue);
   console.log(arrayCharactersInputField);
