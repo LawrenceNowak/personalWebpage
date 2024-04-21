@@ -12,29 +12,29 @@
     <div id="landingPage">
         <div id="projectsLandingpage">
             <h1>
-                <a href="#projectsPage" title="zur Startseite">
+                <a href="#projects" title="zur Startseite">
                     Projects
                 </a>
             </h1>
         </div>
         <div id="cvLandingpage">
             <h1>
-                <a href="#cvPage" title="zur Startseite">
+                <a href="#cv"zur Startseite">
                     CV
                 </a>
             </h1>
         </div>                           
         <div id="aboutMeLandingpage">
             <h1>
-                <a href="#aboutMePage" title="zur Startseite">
+                <a href="#aboutMe" title="zur Startseite">
                     About Me
                 </a>
             </h1>
         </div>
     </div>
 
-    <div id="projectsPage">      
-        <div id="headerProjects">
+    <div class="pageContainer" id="projects">      
+        <div class="headerPages">
             <h1>
                 Projects
             </h1>
@@ -47,7 +47,7 @@
             </div>
             <div class="contentTextLeft">
                 <div >
-                    <div class="calculatorProjectContainer">
+<!--                     <div class="calculatorProjectContainer">
                         <input type="text" id="calculatorInputField" name="name" required minlength="0" maxlength="20" size="10" readonly/>
                         <div class="calculatorCharacter">  <button onclick="inputCharacters(this)" type="button" id="character0" value="0">0</button>  </div>
                         <div class="calculatorCharacter">  <button onclick="inputCharacters(this)" type="button" id="character1" value="1">1</button>  </div>
@@ -69,7 +69,7 @@
                         <div class="calculatorCharacter">  <button onclick="inputCharacters(this)" type="button" id="characterC" value="DelteOne">C</button>  </div>
                         <div class="calculatorCharacter">  <button onclick="inputCharacters(this)" type="button" id="characterD" value="DeleteAll">←</button>  </div>
                         <div class="calculatorCharacter">  <button onclick="inputChsracters(this)" type="button" id="characterR" value="Return">RETURN</button>  </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -87,8 +87,8 @@
 
     </div>
 
-    <div id="cvPage">
-        <div id="headerCv">
+    <div class="pageContainer" id="cv">
+        <div class="headerPages">
             <h1>
                 CV
             </h1>
@@ -180,12 +180,13 @@
         </div>
     </div>
 
-    <div id="aboutMePage">
-        <div id="headerAboutMe">
+    <div class="pageContainer" id="aboutMe">
+        <div class="headerPages">
             <h1>
                 About Me
             </h1>
         </div>
+
         <div class="contentContainerLeft">
             <div class="contentHeaderLeft">
                 <h2>
@@ -196,46 +197,44 @@
                 <div class="content">
                     <h2>Sprachen</h2>
                     <p>Deutsch - Muttersprache</p>
-                    <p>Englisch - Sehr Gut</p>
-                 
+                    <p>Englisch - Sehr gut</p>
                 </div>
-    
                 <div class="content">
-                    <h2>Programmiersprachen/Auszeichnungssprachen/Stylesheet-Sprachen/Versionsverwaltungen</h2>
-                    <p>HTML        - Rudimentär</p>
-                    <p>CSS         - Rudimentär</p>   
-                    <p>GIT         - Rudimentär</p>    
-                    <p>Javascript  - Rudimentär</p>    
-                    <p>C#          - Rudimentär</p>    
-                    
+                    <h2>Programmiersprachen/Skriptsprachen/
+                        <br>Versionsverwaltungssystem
+                    </h2>
+                    <p>HTML - Rudimentär</p>
+                    <p>CSS - Rudimentär</p>
+                    <p>Git - Rudimentär</p>
+                    <p>Javascript - Rudimentär</p>
+                    <p>C# - Rudimentär</p>
                 </div>
                 <div class="content">
                     <h2>Kurse</h2>
-                    <p>Udemy - The Web Developer Bootcamp 2018 by Colt Steele</p>
+                    <p>Udemy Web Developer Bootcam 2018 Colt Steele</p>
                 </div>
+            </div>
         </div>
 
         <div class="contentContainerRight">
             <div class="contentHeaderRight">
-                <h2>
+                <h2 >
                     Hobbies
                 </h2>
             </div>
 
-            <div class="contentTextRight">
-                <div class="timeline">
-                    <div class="content">
-                        <h2>Hobbies</h2>
-                        <p>Gaming</p>
-                        <p>Gamedevelopment</p>
-                        <p>Gym</p>
-                        <p>Kochen</p>
-                    </div>
-                </div>
+            <div class="timeline">
+                <div class="content">
+                    <h2>Hobbies</h2>
+                    <p>Gaming</p>
+                    <p>Gamedevelopment</p>
+                    <p>Programmieren</p>
+                    <p></p>
                 </div>
             </div>
         </div>
     </div>
+
   </body>
   <script src="websiteScripts.js"></script>
 </html>

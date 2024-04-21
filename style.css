@@ -29,17 +29,7 @@ body {
     width: 100vw;
 }
 
-#projectsPage{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 100vh;
-    width: 100vw;
-}
-
-#cvPage{
+.pageContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
@@ -75,46 +65,16 @@ body {
     padding-left: 55vw;
 }
 
-#headerProjects{
-    display: flex;
-    justify-content: center;
-    text-align:center;
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-#headerCv{
-    display: flex;
-    justify-content: center;
-    text-align:center;
-    grid-area: 1 / 2 / 2 / 3; 
-    
-}
-
-#headerAboutMe{
+.headerPages{
     display: flex;
     justify-content: center;
     text-align:center;
     grid-area: 1 / 2 / 2 / 3; 
 }
 
-.contentContainerLeft{
-    display: flex;
-    justify-content: right;
-    text-align:left;
-    grid-area: 2 / 1 / 3 / 2;
-    margin-top: 10vh;
-    position: relative;
-    padding-left: 100vh;
-}
-
-.contentHeaderLeft{
+.contentHeader{
     position: absolute;
     padding-right: 20vw;
-}
-
-.contentHeaderLeft:hover{
-    background-color: #04AA6D;
-    color: white;
 }
 
 .timeline{
@@ -143,26 +103,23 @@ body {
     z-index: 1;
   }
 
+.contentContainerLeft{
+    display: flex;
+    justify-content: right;
+    text-align:left;
+    margin-top: 10vh;
+    position: relative;
+}
+
 .contentContainerRight{
     display: flex;
     justify-content: left;
     text-align: left;
-    grid-area: 2 / 3 / 3 / 4;
     margin-top: 10vh;
     position: relative;
-    padding-left: 100vh;
+    margin-left: -10vw;
 }
 
-.contentHeaderRight{
-    position: absolute;
-    padding-left: 20vw;
-}
-
-.contentTextRight{
-    position: absolute;
-    margin-top: 10vh;
-}
-  
 .calculatorProjectContainer{
     background-color: white;
     display:grid;
