@@ -149,7 +149,8 @@ body {
     text-align: left;
     grid-area: 2 / 3 / 3 / 4;
     margin-top: 10vh;
-    padding-right: 100vh;
+    position: relative;
+    padding-left: 100vh;
 }
 
 .contentHeaderRight{
@@ -161,12 +162,7 @@ body {
     position: absolute;
     margin-top: 10vh;
 }
-
-.contentTextRight #gamingContent {
-    justify-content: center;
-    padding-left: 20vw;
-}      
-
+  
 .calculatorProjectContainer{
     background-color: white;
     display:grid;
