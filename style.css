@@ -112,10 +112,36 @@ body {
     padding-right: 20vw;
 }
 
-.contentTextLeft{
+.contentHeaderLeft:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.timeline{
     position: absolute;
     margin-top: 10vh;
 }
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 0.3vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: -1vw;
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    left: -1.35vw;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+  }
 
 .contentContainerRight{
     display: flex;
