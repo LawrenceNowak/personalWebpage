@@ -1,4 +1,6 @@
 const arrayCharactersInputField =[];
+const operatorArray = ["+", "-", "*", '/'];
+
 /* searching for all classes that have the class calulatorNumber */
 const characters = document.querySelectorAll(".calculatorCharacter");
 
@@ -6,8 +8,14 @@ function inputCharacters(objButton){
   const buttonValue = objButton.value;
   arrayCharactersInputField.push(buttonValue);
   console.log(arrayCharactersInputField);
+  usingOperator();
 }
 
+function usingOperator(){
+  // checks wether the next string is an operator or not and returns a bool
+  let isOperator = arrayCharactersInputField.some( operator => operatorArray.includes(operator) );
+  console.log(isOperator);
+} 
 /*################################################ OLD CODE ##########################################*/
 /////* Looping through the amount of classes found with the querySelectorAll method and then printing out the 6th string when clicking on the button*/
 ////for(var i=0; i<characters.length; i++) {
@@ -31,4 +39,3 @@ function inputCharacters(objButton){
 //   // input the looped buttons values into the text field
 //   document.getElementById("calculatorInputField").value = buttonValue;
 //   console.log(buttonValue);
-// }
