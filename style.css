@@ -17,6 +17,7 @@ h2{
 h2:hover{
     background-color: yellow;
 }
+
 p{
     color:rgb(197, 198, 199);
 }
@@ -80,12 +81,12 @@ body {
     padding-right: 20vw;
 }
 
-.timeline{
+.timelineLeft{
     position: absolute;
     margin-top: 10vh;
 }
 
-.timeline::before {
+.timelineLeft::before {
   content: '';
   position: absolute;
   width: 0.3vw;
@@ -95,7 +96,33 @@ body {
   left: -1vw;
 }
 
-.content::before {
+.contentLeft::before {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    left: -1.35vw;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+.timelineRight{
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.timelineRight::before {
+  content: '';
+  position: absolute;
+  width: 0.3vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: -1vw;
+}
+
+.contentRight::before {
     content: '';
     position: absolute;
     width: 1vw;
